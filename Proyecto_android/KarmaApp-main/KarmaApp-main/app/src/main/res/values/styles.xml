@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#388e3c</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+
+        <!-- Navigation Drawer -->
+        <item name="colorNavigationItem">@color/menu_item_color_state</item>
+        <item name="colorNavigationItemSelected">@color/colorWhite</item>
+        <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="TransparentView">
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">?attr/colorNavigationItem</item>
+        <item name="itemTextColor">?attr/colorNavigationItem</item>
+        <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
